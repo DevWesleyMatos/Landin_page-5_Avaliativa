@@ -21,9 +21,13 @@
     width: 13vw;
 }
 #titleCabeçalho{
-    align-items: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     width: 13vw;
+    background-color: yellow;
+    height: 5vh;
 }
 #titleCabeçalho img{
     width: 150px;
@@ -32,8 +36,13 @@
 #login{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 13vw;
-    background-color: aqua;
+    background-color: yellow;
+    height: 5vh;
+}
+#login p{
+    color:rgb(202, 26, 26)
 }
 #meio{
     margin-top: 20vh;
@@ -43,6 +52,4 @@
     flex-direction: column;
     gap: 5vh;
 }
-    #meio input[placeholder]::before{
-        content: '==';
-}
+
