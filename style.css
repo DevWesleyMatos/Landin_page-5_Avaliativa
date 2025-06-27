@@ -219,30 +219,3 @@ body {
     font-family:"roboto";
     font-weight: 600;
 }
-#rodape{
-}
-#linha1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1vw;
-    height: 5vh;
-}
-#linha h6{
-width: 5vw;
-}
-#linha2{
-    display: flex;
-    justify-content: space-around;
-    gap: 2vw;
-}
-.coluna{
-    display: flex; 
-    flex-direction: column;
-    width: 5vw;
-    background-color: yellowgreen;
-}
-.coluna a{
-    width: 5vw;
-
-}
