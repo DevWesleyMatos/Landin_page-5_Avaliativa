@@ -53,10 +53,12 @@ body {
 
 #login p {
   color: white;
+  padding-top: 2vh;
 }
 
+
 #login button {
-  padding: 0.6vw 1vw;
+  padding: 0.7vh 1vw;
   border-radius: 1rem;
   border: none;
   cursor: pointer;
@@ -67,7 +69,7 @@ body {
 
 #login .butaoUp {
   background-color: white;
-  color: #7b0005;
+  color: #7b0005;;
 }
 
 #meio {
@@ -193,7 +195,7 @@ body {
 
 .boxImg {
   width: 40vw;
-  padding: 2;
+  padding: 2rem;
 }
 
 .boxImg button {
@@ -213,11 +215,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3vw;
   background-color: #fff0ed;
 }
 
 .boxImg2 {
   width: 40vw;
+  padding: 1rem;
+}
+.boxImg2 img{
+  width: 40vw;
+  height: 60vh;
 }
 
 .boxImg2 h1,
@@ -305,6 +313,8 @@ p {
 }
 .coluna2Img img{
   width: 8vw;
+  padding: 0.3vw;
+  background-color: #c4c4c4;
 }
 #linha3{
   display: flex;
