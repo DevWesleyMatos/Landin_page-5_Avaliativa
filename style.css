@@ -313,8 +313,12 @@ p {
 }
 .coluna2Img img{
   width: 8vw;
-  padding: 0.3vw;
+
+}
+.img1{
   background-color: #c4c4c4;
+  border-radius: 10px;
+  margin-bottom: 1vh;
 }
 #linha3{
   display: flex;
@@ -322,18 +326,30 @@ p {
   height: 5vh;
   font-size: small;
   margin: 3vh 15vw;
-  
+  align-items: center;
 }
 .box3{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 75vw;
-  gap: 1vw;
+  width: 35vw;
+  height: 6vh;
+  font-size: x-small;
+}
+.box3 img{
+  width: 2vw;
+}
+.box3 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0; 
+  padding: 0 5px;
 }
 .box4{
   width: 10vw;
   gap: 2vw;
+  margin-left: 14vw;
   display: flex;
   align-items: center;
   justify-content: center;
