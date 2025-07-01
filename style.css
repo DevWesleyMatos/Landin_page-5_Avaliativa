@@ -191,6 +191,8 @@ body {
 #blocoImg1 img {
   width: 40vw;
   height: 60vh;
+  margin-left: -5vw;
+  margin-bottom: -5vh;
 }
 
 .boxImg {
@@ -212,20 +214,22 @@ body {
 #blocoImg2 {
   height: 70vh;
   width: 100vw;
+  padding-top: 5vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 3vw;
+  gap: 2vw;
   background-color: #fff0ed;
 }
 
 .boxImg2 {
-  width: 40vw;
+  width: 30vw;
   padding: 1rem;
 }
 .boxImg2 img{
   width: 40vw;
   height: 60vh;
+  margin-right: 8vw;
 }
 
 .boxImg2 h1,
